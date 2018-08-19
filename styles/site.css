@@ -35,3 +35,12 @@ header {
 	background: url('../images/origami-logo.svg') no-repeat;
 	background-size: contain;
 }
+
+#companyName {
+	font-family: "Huntsman", sans-serif;
+	float: left;
+	margin-left: 15px;
+	font-size: 22px;
+	line-height: 50;
+	color: #fff;
+}
