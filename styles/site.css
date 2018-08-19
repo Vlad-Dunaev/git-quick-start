@@ -49,3 +49,11 @@ header {
 	height: 50px;
 	float: right;
 }
+
+#navWrap a {
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	padding: 0 20px;
+	height: 70px;
+	line-height: 70px;
+}
