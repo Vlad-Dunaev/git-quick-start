@@ -44,3 +44,8 @@ header {
 	line-height: 50px;
 	color: #fff;
 }
+
+#navWrap {
+	height: 50px;
+	float: right;
+}
