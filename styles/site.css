@@ -18,3 +18,8 @@ header {
 	background: url(../images/promo.jpg) no-repeat;
 	background-size: cover;
 }
+
+#headerInside {
+	width: 1100px;
+	margin: 0 auto;
+}
