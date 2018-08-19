@@ -48,9 +48,15 @@ header {
 #navWrap {
 	height: 50px;
 	float: right;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
 
 #navWrap a {
+	display: block;
 	font-family: "Open Sans", sans-serif;
 	color: #fff;
 	padding: 0 20px;
