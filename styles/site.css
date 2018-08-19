@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "Open Sans";
-	src: url(../fonts/OpenSans.ttf);
+	src: url('../fonts/OpenSans.ttf');
 }
 @font-face {
 	font-family: "Huntsman";
-	src: url(../fonts/Huntsman.otf);
+	src: url('../fonts/Huntsman.otf');
 }
 
 body, html {
@@ -41,6 +41,6 @@ header {
 	float: left;
 	margin-left: 15px;
 	font-size: 22px;
-	line-height: 50;
+	line-height: 50px;
 	color: #fff;
 }
