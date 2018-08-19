@@ -2,6 +2,10 @@
 	font-family: "Open Sans";
 	src: url(../fonts/OpenSans.ttf);
 }
+@font-face {
+	font-family: "Huntsman";
+	src: url(../fonts/Huntsman.otf);
+}
 
 body, html {
 	padding: 0;
