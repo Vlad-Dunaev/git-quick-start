@@ -53,6 +53,13 @@ header {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
 }
 
 #navWrap a {
@@ -62,4 +69,15 @@ header {
 	padding: 0 20px;
 	height: 70px;
 	line-height: 70px;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	text-decoration: none;
+}
+
+#navWrap a:last-child {
+	border-left: none;
+}
+
+#navWrap a:hover {
+	background: #5e5e5e;
 }
