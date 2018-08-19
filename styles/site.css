@@ -15,11 +15,19 @@ header {
 	height: 50px;
 	padding: 10px 0;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	background: url(../images/promo.jpg) no-repeat;
+	background: url('../images/promo.jpg') no-repeat;
 	background-size: cover;
 }
 
 #headerInside {
 	width: 1100px;
 	margin: 0 auto;
+}
+
+#logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: url('../images/origami-logo.svg') no-repeat;
+	background-size: contain;
 }
